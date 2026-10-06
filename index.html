@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Digital Solutions | Premium Web & App Development</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <!-- Double click/tap on this logo opens Admin -->
+            <h1 id="logo" class="logo">Aryan Digital Solutions</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="headline" id="hero-headline">Build Your Business.<br><span class="highlight">Build Your Digital Future.</span></h1>
+            <p class="sub-headline" id="hero-subtext">Professional Android Apps & Websites built according to your business needs and budget.</p>
+            <div class="hero-badges">
+                <span class="badge"><i class="fas fa-rocket"></i> App & Website Development Starting From ₹4,999</span>
+            </div>
+            <div class="cta-group">
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+                <a href="#lead-filter" class="btn btn-primary whatsapp-btn-direct"><i class="fab fa-whatsapp"></i> I'm Interested</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="grid-layout">
+                <div class="card service-card">
+                    <i class="fab fa-android service-icon"></i>
+                    <h3>Android App Development</h3>
+                    <p>Custom Android applications for businesses and individuals.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-laptop-code service-icon"></i>
+                    <h3>Website Development</h3>
+                    <p>Professional business websites and custom websites.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fab fa-telegram-plane service-icon"></i>
+                    <h3>Telegram Bots</h3>
+                    <p>Custom Telegram bot solutions.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-cogs service-icon"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>Advanced/custom requirements can be discussed separately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Pricing Section -->
+    <section class="pricing section-padding dark-bg">
+        <div class="container">
+            <h2 class="section-title">Website Package Pricing</h2>
+            <p class="section-subtitle">Packages are for standard requirements. Final price may vary based on custom needs.</p>
+            <div class="grid-layout pricing-grid">
+                <div class="card pricing-card">
+                    <h3>Basic Package</h3>
+                    <h2 class="price" id="web-basic-price">₹1,999</h2>
+                    <p class="desc">Entry-level package for essential online presence.</p>
+                </div>
+                <div class="card pricing-card featured-card">
+                    <div class="popular-tag">Recommended</div>
+                    <h3>Standard Package</h3>
+                    <h2 class="price" id="web-standard-price">₹2,999</h2>
+                    <p class="desc">The middle package for growing businesses.</p>
+                </div>
+                <div class="card pricing-card">
+                    <h3>Maximum Package</h3>
+                    <h2 class="price" id="web-max-price">₹4,999</h2>
+                    <p class="desc">Highest standard package with advanced features.</p>
+                </div>
+            </div>
+            <div class="custom-note">
+                <p><strong>Need something more advanced?</strong><br>Custom/advanced requirements are available separately.</p>
+                <a href="#lead-filter" class="btn btn-outline">Discuss Custom Requirement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Pricing Section -->
+    <section class="app-pricing section-padding">
+        <div class="container">
+            <h2 class="section-title">Android App Development</h2>
+            <div class="grid-layout two-col">
+                <div class="card pricing-card">
+                    <h3>Basic App Development</h3>
+                    <h2 class="price">Starting From <span id="app-basic-price">₹4,999</span></h2>
+                    <p class="desc">Standard mobile applications for standard business needs.</p>
+                </div>
+                <div class="card pricing-card featured-card premium-app">
+                    <h3>Premium App Development</h3>
+                    <h2 class="price">Starting From <span id="app-premium-price">₹9,999</span></h2>
+                    <p class="desc">Advanced features, admin panels, and custom functionality.</p>
+                </div>
+            </div>
+            <div class="disclaimer">
+                <p><i class="fas fa-info-circle"></i> Final pricing depends on your specific requirements and feature list.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Play Store Section -->
+    <section class="playstore section-padding dark-bg">
+        <div class="container text-center">
+            <h2 class="section-title">Google Play Store Publishing</h2>
+            <div class="playstore-box card">
+                <div class="play-item">
+                    <h4>Standalone Play Store Publishing</h4>
+                    <p class="price-text" id="play-standalone-price">₹10,000</p>
+                </div>
+                <div class="play-item highlight-play">
+                    <h4>App + Play Store Publishing</h4>
+                    <p>(If app is developed by us)</p>
+                    <p class="price-text" id="play-bundled-price">₹5,000 additional</p>
+                </div>
+            </div>
+            <p class="sm-text mt-3">Publishing charges are separate from app development unless specifically included in a package.</p>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us section-padding">
+        <div class="container">
+            <h2 class="section-title">Why Aryan Digital Solutions?</h2>
+            <div class="benefits-grid">
+                <div class="benefit"><i class="fas fa-check-circle"></i> Business-focused development</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Budget-based solutions</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Custom requirements</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Modern premium UI</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Android & Website solutions</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Direct communication</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Flexible development</div>
+                <div class="benefit"><i class="fas fa-check-circle"></i> Suitable for startups & small businesses</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Dev & Lead Filter Section (CRITICAL) -->
+    <section id="lead-filter" class="lead-filter section-padding dark-bg glow-section">
+        <div class="container">
+            <div class="filter-card card">
+                <h2 class="text-center">Interested in Building Your Business Online?</h2>
+                <p class="text-center filter-desc">If you are genuinely interested in getting an app or website for your business, select your requirement and budget below and contact us on WhatsApp.</p>
+                
+                <form id="lead-form" class="lead-form">
+                    <div class="form-group">
+                        <label>What do you need?</label>
+                        <select id="user-service" required class="premium-select">
+                            <option value="" disabled selected>Select Requirement</option>
+                            <option value="Android App">Android App</option>
+                            <option value="Website">Website</option>
+                            <option value="App + Website">App + Website</option>
+                            <option value="Telegram Bot">Telegram Bot</option>
+                            <option value="Custom Solution">Custom Solution</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Your Budget</label>
+                        <select id="user-budget" required class="premium-select">
+                            <option value="" disabled selected>Select Budget</option>
+                            <option value="₹1,999 - ₹4,999">₹1,999 – ₹4,999</option>
+                            <option value="₹5,000 - ₹9,999">₹5,000 – ₹9,999</option>
+                            <option value="₹10,000 - ₹24,999">₹10,000 – ₹24,999</option>
+                            <option value="₹25,000+">₹25,000+</option>
+                            <option value="Custom Budget">Custom Budget</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fab fa-whatsapp"></i> Yes, I'm Interested</button>
+                </form>
+                <p class="serious-note text-center mt-3"><small>Interested in taking your business digital? If you're serious about getting your app or website built, message us on WhatsApp with your requirement and budget.</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h3>Aryan Digital Solutions</h3>
+            <p>Apps • Websites • Telegram Bots • Custom Solutions</p>
+            <p class="built-by">Built by Aryan Digital Solutions</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="#lead-filter" class="btn btn-primary btn-block"><i class="fab fa-whatsapp"></i> Message on WhatsApp</a>
+    </div>
+
+    <!-- Hidden Admin Panel Modal -->
+    <div id="admin-modal" class="modal">
+        <div class="modal-content card">
+            <span class="close-admin">&times;</span>
+            
+            <!-- Login View -->
+            <div id="admin-login-view">
+                <h2>Admin Access</h2>
+                <p>Restricted Area</p>
+                <input type="password" id="admin-pwd" placeholder="Enter Password" class="premium-input">
+                <button id="admin-login-btn" class="btn btn-primary mt-2">Login</button>
+                <p id="admin-error" class="error-text"></p>
+            </div>
+
+            <!-- Dashboard View -->
+            <div id="admin-dashboard-view" style="display:none;">
+                <h2>Admin Dashboard</h2>
+                <p class="sm-text">Changes saved in local browser (Static Setup)</p>
+                
+                <div class="admin-group">
+                    <label>WhatsApp Number (With Country Code, No +)</label>
+                    <input type="text" id="cfg-wa" class="premium-input">
+                </div>
+                
+                <button id="save-config-btn" class="btn btn-secondary mt-2">Save Configuration</button>
+                
+                <div class="leads-viewer mt-4">
+                    <h3>Recent Local Leads (Demo)</h3>
+                    <p class="sm-text">In a real production environment, connect this to Firebase/Supabase.</p>
+                    <ul id="local-leads-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
